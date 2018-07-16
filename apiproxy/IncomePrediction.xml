@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="CensusPrediction">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <Description></Description>
+    <DisplayName>income_prediction</DisplayName>
+    <Policies>
+        <Policy>AM-SetAccessToken</Policy>
+        <Policy>AM-SetAuthorizationHeader</Policy>
+        <Policy>AM-SetPrivateKey</Policy>
+        <Policy>Cache-GetAccessToken</Policy>
+        <Policy>Cache-PutAccessToken</Policy>
+        <Policy>Extract-AccessToken</Policy>
+        <Policy>JS-AdjustAccessTokenExpiry</Policy>
+        <Policy>JWT-GenerateGoogleToken</Policy>
+        <Policy>KVM-GetPrivateKey</Policy>
+        <Policy>Quota-CheckQuota</Policy>
+        <Policy>SC-RequestAccessToken</Policy>
+        <Policy>VerifyKey-APIKeyInHeader</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://adjustExpiry.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>

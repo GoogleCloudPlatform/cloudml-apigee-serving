@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LookupCache async="false" continueOnError="false" enabled="true" name="Cache-GetAccessToken">
+    <FaultRules/>
+    <Properties/>
+    <CacheKey>
+        <KeyFragment>google.access_token</KeyFragment>
+    </CacheKey>
+    <Scope>Global</Scope>
+    <AssignTo>google.access_token</AssignTo>
+</LookupCache>

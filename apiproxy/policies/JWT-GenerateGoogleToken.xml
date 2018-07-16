@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenerateJWT async="false" continueOnError="false" enabled="true" name="JWT-GenerateGoogleToken">
+    <FaultRules/>
+    <Properties/>
+    <AdditionalClaims>
+        <Claim name="scope" type="string">https://www.googleapis.com/auth/cloud-platform</Claim>
+    </AdditionalClaims>
+    <AdditionalHeaders/>
+    <Algorithm>RS256</Algorithm>
+    <Audience>https://www.googleapis.com/oauth2/v4/token</Audience>
+    <ExpiresIn>1h</ExpiresIn>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <Issuer ref="private.service-account"/>
+    <OutputVariable>jwt-variable</OutputVariable>
+    <PrivateKey>
+        <Value ref="private.private-key"/>
+    </PrivateKey>
+</GenerateJWT>

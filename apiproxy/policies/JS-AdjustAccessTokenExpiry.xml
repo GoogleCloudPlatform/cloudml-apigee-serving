@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript name="JS-AdjustAccessTokenExpiry" timeLimit="100">
+    <Properties>
+        <Property name="ttlValueVar">google.expires_in</Property>
+        <Property name="delta">60</Property>
+    </Properties>
+    <ResourceURL>jsc://adjustExpiry.js</ResourceURL>
+</Javascript>

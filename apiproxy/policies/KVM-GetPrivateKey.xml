@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations encrypted="false" mapIdentifier="secrets" async="false" continueOnError="false" enabled="true" name="KVM-GetPrivateKey">
+    <FaultRules/>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>10</ExpiryTimeInSecs>
+    <InitialEntries/>
+    <Get assignTo="private.service-account" index="1">
+        <Key>
+            <Parameter>service-account</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.private-key" index="1">
+        <Key>
+            <Parameter>private-key</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

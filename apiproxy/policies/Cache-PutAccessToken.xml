@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache async="false" continueOnError="false" enabled="true" name="Cache-PutAccessToken">
+    <FaultRules/>
+    <Properties/>
+    <CacheKey>
+        <KeyFragment>google.access_token</KeyFragment>
+    </CacheKey>
+    <Scope>Global</Scope>
+    <ExpirySettings>
+        <TimeoutInSec ref="google.expires_in">3540</TimeoutInSec>
+        <!-- 3540 = 3600-60 = default ttl -->
+    </ExpirySettings>
+    <Source>google.new_access_token</Source>
+</PopulateCache>
