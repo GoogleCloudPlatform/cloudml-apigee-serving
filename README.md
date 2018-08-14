@@ -1,7 +1,7 @@
 # Serving Machine Learning Models using Apigee Edge & Cloud ML Engine
 
 This repository contains the accompanying code for the tutorial at
-[https://cloud.google.com/solutions/serving-models-apigee-edge-ml-engine](https://cloud.google.com/solutions/serving-machine-learning-models-using-apigee-edge-and-ml-engine]).
+[https://cloud.google.com/solutions/serving-models-apigee-edge-ml-engine](https://cloud.google.com/solutions/serving-machine-learning-models-using-apigee-edge-and-ml-engine).
 
 ### Directories
 * `apiproxy` - Apigee [API
@@ -10,4 +10,4 @@ This repository contains the accompanying code for the tutorial at
 * `model` - Sample pre-trained TensorFlow model for [predicting income using census data](https://github.com/GoogleCloudPlatform/cloudml-samples/tree/master/census).
 
 ### Installation
-See the [tutorial page](https://cloud.google.com/solutions/serving-machine-learning-models-using-apigee-edge-and-ml-engine]) for full instructions.
+See the [tutorial page](https://cloud.google.com/solutions/serving-machine-learning-models-using-apigee-edge-and-ml-engine) for full instructions.
